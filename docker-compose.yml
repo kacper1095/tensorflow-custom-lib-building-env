@@ -1,0 +1,6 @@
+app:
+  build: .
+  volumes: 
+    - ./projects:/projects
+  ports: 
+    - 8888:8888
